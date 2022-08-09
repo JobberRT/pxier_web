@@ -1,0 +1,8 @@
+echo:
+  listen: "0.0.0.0:80"
+  rate_limit: 30
+  max_get_number: 100
+database:
+  max_err: 3
+  write_db: "root:root@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
+  read_db: "root:root@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
